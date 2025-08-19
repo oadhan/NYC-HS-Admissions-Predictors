@@ -1,0 +1,25 @@
+Purpose: Analyze a dataset of students from various middle schools who applied to the High School for Health Professions and Human 
+Services (HSPHS) in New York, NY and their application result to understand which variables best predicted their admission to HSPHS.
+This analysis was done to provide recommendations to middle schools on what changes can be made to increase their students' chances
+of being admitted to HSPHS.
+
+Method: I first checked the correlation between various quantitative factors (ex. test performace, student to teacher ratio, etc.) and
+qualitative factors (ex. student perception of their school, trust, etc.) of each middle school with their admission rate. 
+I did this through correlation metrics and hypothesis testing. I then fitted regression models to see which factors had the most impact
+on admisson.
+
+Dataset:
+middleSchoolData.csv
+x:
+- quanititative: school_name, applications, per_pupil_spending, avg_class_size, asian_percent, black_percent, hispanic_percent, multiple_percent,
+white_percent, disability_percentage, poverty_percent, ESL_percent, school_size
+- qualitative (strongly disagree = 1, strongly agree = 5): rigorous_instruction, collaborative_teachers, supportive_enviroment, 
+effective_school_leadership, strong_family_community_ties, trust, student_achievement
+y: 
+- acceptances
+
+Files:
+1. HSPHS Applications and Admissions Report.pdf - includes method, results, and conclusion on various correlation or regression analyses
+2. HSPHS Applications Admissions Analysis.py - correlation analysis, multiple regression, linear regression of predictor variables versus acceptances 
+
+Contributor(s): Oviya Adhan
